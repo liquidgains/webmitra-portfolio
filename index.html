@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional web design for local businesses. Fast, mobile-friendly websites delivered in 7 days." />
+  <title>WebMitra | Modern Websites for Local Businesses</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════════════ -->
+  <header>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo" aria-label="WebMitra — Home">WebMitra<span>.</span></a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="#services"  class="nav__link">Services</a></li>
+          <li><a href="#portfolio" class="nav__link">Work</a></li>
+          <li><a href="#why-us"    class="nav__link">About</a></li>
+          <li><a href="#process"   class="nav__link">Process</a></li>
+          <li><a href="#contact"   class="nav__link nav__link--cta">Get a Website</a></li>
+        </ul>
+
+        <button class="nav__hamburger" id="nav-toggle"
+          aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+          <span class="hbar"></span>
+          <span class="hbar"></span>
+          <span class="hbar"></span>
+        </button>
+      </div>
+
+      <div class="nav__mobile" id="nav-mobile" aria-hidden="true">
+        <ul class="nav__mobile-links" role="list">
+          <li><a href="#services"  class="nav__mobile-link">Services</a></li>
+          <li><a href="#portfolio" class="nav__mobile-link">Work</a></li>
+          <li><a href="#why-us"    class="nav__mobile-link">About</a></li>
+          <li><a href="#process"   class="nav__mobile-link">Process</a></li>
+          <li><a href="#contact"   class="nav__mobile-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav__mobile-cta">Get a Website →</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+
+      <div class="hero__badge" role="note">
+        <div class="badge__dot" aria-hidden="true">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </div>
+        <span class="badge__text"><strong>30+ local businesses</strong> served across India</span>
+      </div>
+
+      <h1 id="hero-heading" class="hero__headline">
+        Professional Websites for <em>Growing Businesses</em>
+      </h1>
+
+      <p class="hero__sub">
+        WebMitra helps local businesses build modern websites that attract customers and build trust online.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--primary">
+          Get a Free Quote
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#portfolio" class="btn btn--ghost">View Our Work</a>
+      </div>
+
+      <div class="hero__trust" aria-label="Client social proof">
+        <div class="trust-avatars" aria-hidden="true">
+          <div class="trust-avatar ta1">JR</div>
+          <div class="trust-avatar ta2">SK</div>
+          <div class="trust-avatar ta3">MT</div>
+          <div class="trust-avatar ta4">LP</div>
+        </div>
+        <div>
+          <div class="trust-stars" aria-label="5 star rating">★★★★★</div>
+          <p class="trust-text"><strong>Trusted by 30+ businesses</strong> across retail, health &amp; services</p>
+        </div>
+      </div>
+
+      <!-- Browser preview -->
+      <div class="hero__preview-wrap" role="img" aria-label="Example website preview mockup">
+        <div class="preview-browser">
+
+          <!-- Browser chrome -->
+          <div class="browser-chrome" aria-hidden="true">
+            <div class="chrome-dots">
+              <div class="chrome-dot"></div>
+              <div class="chrome-dot"></div>
+              <div class="chrome-dot"></div>
+            </div>
+            <div class="chrome-bar">
+              <div class="chrome-lock">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                </svg>
+              </div>
+              <span class="chrome-url">yourbusiness.com</span>
+            </div>
+            <div class="chrome-actions">
+              <button class="chrome-action" aria-label="Back">
+                <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <button class="chrome-action" aria-label="Forward">
+                <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Fake website inside browser -->
+          <div class="site-preview" aria-hidden="true">
+            <div class="site-nav-bar">
+              <div class="site-logo-wrap">
+                <div class="site-logo-mark"></div>
+                <div class="site-logo-lines">
+                  <div class="sll1"></div>
+                  <div class="sll2"></div>
+                </div>
+              </div>
+              <div class="site-nav-links-mock">
+                <div class="site-nav-link-mock"></div>
+                <div class="site-nav-link-mock"></div>
+                <div class="site-nav-link-mock"></div>
+              </div>
+              <div class="site-nav-cta-mock"></div>
+            </div>
+
+            <div class="site-content">
+              <div class="site-copy">
+                <div class="site-eyebrow-mock">
+                  <div class="site-eyebrow-dot"></div>
+                  <div class="site-eyebrow-bar"></div>
+                </div>
+                <div class="site-h-group">
+                  <div class="site-h-line"></div>
+                  <div class="site-h-line sh2"></div>
+                  <div class="site-h-line sh3"></div>
+                </div>
+                <div class="site-p-group">
+                  <div class="site-p-line"></div>
+                  <div class="site-p-line sp2"></div>
+                  <div class="site-p-line sp3"></div>
+                </div>
+                <div class="site-btns-mock">
+                  <div class="site-btn-p"></div>
+                  <div class="site-btn-o"></div>
+                </div>
+              </div>
+
+              <div class="site-img-col">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.16)" stroke-width="1.25">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <path d="m21 15-5-5L5 21"/>
+                </svg>
+                <div class="img-float-card ifc1">
+                  <div class="ifc-dot"></div>
+                  <div class="ifc-stat"></div>
+                  <div class="ifc-line"></div>
+                  <div class="ifc-line ifc-line-s"></div>
+                </div>
+                <div class="img-float-card ifc2">
+                  <div class="ifc-line"></div>
+                  <div class="ifc-line ifc-line-s"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="site-cards-strip">
+              <div class="site-feat-card"><div class="sfc-icon sfc-red"></div><div class="sfc-title"></div><div class="sfc-line"></div><div class="sfc-line sfc-line-s"></div></div>
+              <div class="site-feat-card"><div class="sfc-icon sfc-teal"></div><div class="sfc-title"></div><div class="sfc-line"></div><div class="sfc-line sfc-line-s"></div></div>
+              <div class="site-feat-card"><div class="sfc-icon sfc-blue"></div><div class="sfc-title"></div><div class="sfc-line"></div><div class="sfc-line sfc-line-s"></div></div>
+              <div class="site-feat-card"><div class="sfc-icon sfc-amber"></div><div class="sfc-title"></div><div class="sfc-line"></div><div class="sfc-line sfc-line-s"></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         SERVICES
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">What I offer</p>
+            <h2 id="services-title" class="section-title">
+              The right website<br>for your <em>business type</em>
+            </h2>
+          </div>
+          <p class="section-desc">
+            Every local business has different goals. I build websites tailored to
+            what you actually need — not a one-size-fits-all template.
+          </p>
+        </header>
+
+        <ul class="services__grid" role="list">
+
+          <li class="service-card reveal" aria-labelledby="svc-1">
+            <span class="card-num" aria-hidden="true">01</span>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5Z"/>
+                <path d="M9 21V12h6v9"/>
+              </svg>
+            </div>
+            <h3 class="card-title" id="svc-1">Business Websites</h3>
+            <p class="card-desc">A clean, credible online presence that showcases your services, story, and contact info — turning visitors into paying customers.</p>
+            <div class="card-divider" aria-hidden="true"></div>
+            <ul class="card-tags" aria-label="Included features">
+              <li class="card-tag">About &amp; Services</li>
+              <li class="card-tag">Contact Form</li>
+              <li class="card-tag">Google Maps</li>
+              <li class="card-tag">Mobile-ready</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Learn more
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </li>
+
+          <li class="service-card reveal" aria-labelledby="svc-2">
+            <span class="card-num" aria-hidden="true">02</span>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+              </svg>
+            </div>
+            <h3 class="card-title" id="svc-2">Online Catalog Websites</h3>
+            <p class="card-desc">Display your full product or service range in a beautiful browsable catalog. Perfect for restaurants, retailers, and tradespeople.</p>
+            <div class="card-divider" aria-hidden="true"></div>
+            <ul class="card-tags" aria-label="Included features">
+              <li class="card-tag">Product Gallery</li>
+              <li class="card-tag">Filtering</li>
+              <li class="card-tag">Menu / Price List</li>
+              <li class="card-tag">Fast Load</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Learn more
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </li>
+
+          <li class="service-card reveal" aria-labelledby="svc-3">
+            <span class="card-num" aria-hidden="true">03</span>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12A10 10 0 1 1 12 2"/>
+                <path d="M22 2 12 12"/><path d="m16 2 6 6"/><path d="M22 8V2h-6"/>
+              </svg>
+            </div>
+            <h3 class="card-title" id="svc-3">Lead Generation Websites</h3>
+            <p class="card-desc">Built with one goal: get you more enquiries. Every page, headline, and button guides visitors toward booking a call or filling a form.</p>
+            <div class="card-divider" aria-hidden="true"></div>
+            <ul class="card-tags" aria-label="Included features">
+              <li class="card-tag">Conversion Copy</li>
+              <li class="card-tag">Quote Forms</li>
+              <li class="card-tag">Call-to-action</li>
+              <li class="card-tag">SEO-ready</li>
+            </ul>
+            <a href="#contact" class="card-link">
+              Learn more
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="section-footer">
+          <p><strong>Not sure which fits your business?</strong><br>Get in touch and I'll recommend the right approach for free.</p>
+          <a href="#contact" class="btn btn--outline btn--sm">
+            Book a free call
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PORTFOLIO
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="portfolio-title" class="section-title">
+              Real websites,<br><em>real results</em>
+            </h2>
+          </div>
+          <p class="section-desc">
+            A look at recent projects built for local businesses. Each one is
+            designed from scratch — no templates, no shortcuts.
+          </p>
+        </header>
+
+        <div class="portfolio__filters" role="group" aria-label="Filter projects by type">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="retail">Retail</button>
+          <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+          <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+        </div>
+
+        <ul class="portfolio__grid" role="list">
+
+          <!-- Sweet Shop -->
+          <li class="p-card reveal" data-category="retail" aria-labelledby="proj-1">
+            <div class="p-card__image" role="img" aria-label="Sweet Shop website preview">
+              <div class="card-chrome" aria-hidden="true">
+                <div class="card-dots"><div class="card-dot"></div><div class="card-dot"></div><div class="card-dot"></div></div>
+                <div class="card-url">sweetshop.in</div>
+              </div>
+              <div class="card-screen" aria-hidden="true">
+                <div class="screen-sweet">
+                  <div class="sweet-top">
+                    <div class="sweet-copy">
+                      <div class="sweet-tag"></div>
+                      <div class="sweet-h1"></div>
+                      <div class="sweet-h1b"></div>
+                      <div class="sweet-p"></div>
+                      <div class="sweet-p2"></div>
+                      <div class="sweet-btn"></div>
+                    </div>
+                    <div class="sweet-photo">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/>
+                        <path d="M12 7V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="sweet-products">
+                    <div class="sweet-prod sp1"></div>
+                    <div class="sweet-prod sp2"></div>
+                    <div class="sweet-prod sp3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-card__overlay" aria-hidden="true">
+                <div class="overlay-chip">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Preview site
+                </div>
+              </div>
+            </div>
+            <div class="p-card__body">
+              <div class="p-card__meta">
+                <span class="p-card__tag">Retail</span>
+                <span class="p-card__year">2024</span>
+              </div>
+              <h3 class="p-card__title" id="proj-1">Sweet Shop Website</h3>
+              <p class="p-card__desc">A warm, inviting online catalog for a local confectionery — with a product gallery, seasonal specials, and an enquiry form optimised for mobile shoppers.</p>
+              <div class="p-card__divider" aria-hidden="true"></div>
+              <ul class="p-card__stack" aria-label="Tech stack">
+                <li class="stack-pill">HTML5</li><li class="stack-pill">CSS3</li>
+                <li class="stack-pill">Responsive</li><li class="stack-pill">Contact Form</li>
+              </ul>
+              <div class="p-card__footer">
+                <a href="#contact" class="btn-demo">View Demo <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                <a href="#" class="link-case">Case study →</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Clinic -->
+          <li class="p-card reveal" data-category="healthcare" aria-labelledby="proj-2">
+            <div class="p-card__image" role="img" aria-label="Clinic website preview">
+              <div class="card-chrome" aria-hidden="true">
+                <div class="card-dots"><div class="card-dot"></div><div class="card-dot"></div><div class="card-dot"></div></div>
+                <div class="card-url">cityclinic.in</div>
+              </div>
+              <div class="card-screen" aria-hidden="true">
+                <div class="screen-clinic">
+                  <div class="clinic-nav-bar">
+                    <div class="clinic-logo-bar"></div><div class="clinic-sp"></div>
+                    <div class="clinic-nl"></div><div class="clinic-nl"></div><div class="clinic-nl"></div>
+                  </div>
+                  <div class="clinic-hero">
+                    <div class="clinic-copy">
+                      <div class="clinic-badge"></div><div class="clinic-h1"></div>
+                      <div class="clinic-h1b"></div><div class="clinic-p"></div>
+                      <div class="clinic-p2"></div><div class="clinic-btn"></div>
+                    </div>
+                    <div class="clinic-photo">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                  </div>
+                  <div class="clinic-cards">
+                    <div class="clinic-card"><div class="cc-dot cc-teal"></div><div class="cc-line"></div></div>
+                    <div class="clinic-card"><div class="cc-dot cc-teal2"></div><div class="cc-line"></div></div>
+                    <div class="clinic-card"><div class="cc-dot cc-teal3"></div><div class="cc-line"></div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-card__overlay" aria-hidden="true">
+                <div class="overlay-chip">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Preview site
+                </div>
+              </div>
+            </div>
+            <div class="p-card__body">
+              <div class="p-card__meta">
+                <span class="p-card__tag">Healthcare</span>
+                <span class="p-card__year">2024</span>
+              </div>
+              <h3 class="p-card__title" id="proj-2">Clinic Website</h3>
+              <p class="p-card__desc">A trustworthy, accessible website for a local medical practice — with a service directory, doctor profiles, and a streamlined appointment booking flow.</p>
+              <div class="p-card__divider" aria-hidden="true"></div>
+              <ul class="p-card__stack" aria-label="Tech stack">
+                <li class="stack-pill">HTML5</li><li class="stack-pill">CSS3</li>
+                <li class="stack-pill">Booking Form</li><li class="stack-pill">WCAG AA</li>
+              </ul>
+              <div class="p-card__footer">
+                <a href="#contact" class="btn-demo">View Demo <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                <a href="#" class="link-case">Case study →</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Real Estate -->
+          <li class="p-card reveal" data-category="real-estate" aria-labelledby="proj-3">
+            <div class="p-card__image" role="img" aria-label="Real Estate website preview">
+              <div class="card-chrome" aria-hidden="true">
+                <div class="card-dots"><div class="card-dot"></div><div class="card-dot"></div><div class="card-dot"></div></div>
+                <div class="card-url">premiumproperty.in</div>
+              </div>
+              <div class="card-screen" aria-hidden="true">
+                <div class="screen-estate">
+                  <div class="estate-grid-bg"></div>
+                  <div class="estate-nav">
+                    <div class="estate-logo"></div><div class="estate-sp"></div>
+                    <div class="estate-nl"></div><div class="estate-nl"></div>
+                    <div class="estate-cta-bar"></div>
+                  </div>
+                  <div class="estate-body">
+                    <div class="estate-copy">
+                      <div class="estate-ey"></div><div class="estate-h1"></div>
+                      <div class="estate-h1b"></div><div class="estate-p"></div>
+                      <div class="estate-p2"></div><div class="estate-btn"></div>
+                    </div>
+                    <div class="estate-bldg">
+                      <div class="estate-bldg-lines"></div>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(201,169,110,0.3)" stroke-width="1.25"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                  </div>
+                  <div class="estate-listings">
+                    <div class="estate-li"><div class="eli-thumb et1"></div><div class="eli-info"><div class="eli-l"></div><div class="eli-l2"></div></div><div class="eli-price"></div></div>
+                    <div class="estate-li"><div class="eli-thumb et2"></div><div class="eli-info"><div class="eli-l"></div><div class="eli-l2"></div></div><div class="eli-price"></div></div>
+                    <div class="estate-li"><div class="eli-thumb et3"></div><div class="eli-info"><div class="eli-l"></div><div class="eli-l2"></div></div><div class="eli-price"></div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-card__overlay" aria-hidden="true">
+                <div class="overlay-chip">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Preview site
+                </div>
+              </div>
+            </div>
+            <div class="p-card__body">
+              <div class="p-card__meta">
+                <span class="p-card__tag">Real Estate</span>
+                <span class="p-card__year">2024</span>
+              </div>
+              <h3 class="p-card__title" id="proj-3">Real Estate Website</h3>
+              <p class="p-card__desc">A dark, luxury-feel property site with a filterable listings catalog, enquiry forms, and an editorial aesthetic for a premium property agency.</p>
+              <div class="p-card__divider" aria-hidden="true"></div>
+              <ul class="p-card__stack" aria-label="Tech stack">
+                <li class="stack-pill">HTML5</li><li class="stack-pill">CSS3</li>
+                <li class="stack-pill">Listings</li><li class="stack-pill">SEO-ready</li>
+              </ul>
+              <div class="p-card__footer">
+                <a href="#contact" class="btn-demo">View Demo <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                <a href="#" class="link-case">Case study →</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="section-footer">
+          <p><strong>Want to see more?</strong> I have additional projects available on request.</p>
+          <a href="#contact" class="btn btn--outline btn--sm">
+            Request full portfolio
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         WHY CHOOSE US
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="section why" id="why-us" aria-labelledby="why-title">
+      <div class="container">
+
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">Why choose us</p>
+            <h2 id="why-title" class="section-title">Built to <em>perform,</em><br>designed to last</h2>
+          </div>
+          <p class="section-desc">Every decision — from the first pixel to the final line of code — is made with your customers and your business goals in mind.</p>
+        </header>
+
+        <div class="why__body">
+
+          <aside class="why__panel reveal-left" aria-label="Our commitment">
+            <p class="panel-eyebrow">Our commitment</p>
+            <h3 class="panel-headline">No templates.<br>No shortcuts.<br><em>Just results.</em></h3>
+            <p class="panel-body">Every website I build is designed from scratch, tailored to your business. Local business owners deserve the same quality as big brands — without the agency fees.</p>
+            <div class="panel-stats" role="list" aria-label="Statistics">
+              <div class="panel-stat" role="listitem"><div class="stat-value">30<span>+</span></div><div class="stat-label">Local businesses served</div></div>
+              <div class="panel-stat" role="listitem"><div class="stat-value">7<span>d</span></div><div class="stat-label">Average delivery time</div></div>
+              <div class="panel-stat" role="listitem"><div class="stat-value">98<span>%</span></div><div class="stat-label">Client satisfaction rate</div></div>
+              <div class="panel-stat" role="listitem"><div class="stat-value">3<span>mo</span></div><div class="stat-label">Free post-launch support</div></div>
+            </div>
+            <a href="#contact" class="btn btn--accent">
+              Start your project
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </aside>
+
+          <ul class="why__cards" role="list">
+
+            <li class="trust-card trust-card--red reveal" aria-labelledby="why-1">
+              <span class="card-num" aria-hidden="true">01</span>
+              <div class="card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2.5"/></svg>
+              </div>
+              <h3 class="card-title" id="why-1">Mobile Friendly Design</h3>
+              <p class="card-desc">Over 70% of local searches happen on a phone. Every site I build looks flawless on any screen — automatically.</p>
+              <div class="card-proof"><div class="proof-dot proof-green" aria-hidden="true"></div><p class="proof-text"><strong>100% responsive</strong> across all devices</p></div>
+            </li>
+
+            <li class="trust-card trust-card--teal reveal" aria-labelledby="why-2">
+              <span class="card-num" aria-hidden="true">02</span>
+              <div class="card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m13 2-2 6.5h5L8 22l2-7.5H5L13 2Z"/></svg>
+              </div>
+              <h3 class="card-title" id="why-2">Fast Loading Websites</h3>
+              <p class="card-desc">Slow sites lose customers. Every site is hand-coded and optimised for speed — no bloated builders or unnecessary plugins.</p>
+              <div class="card-proof"><div class="proof-dot proof-teal" aria-hidden="true"></div><p class="proof-text"><strong>90+ PageSpeed</strong> score on every build</p></div>
+            </li>
+
+            <li class="trust-card trust-card--blue reveal" aria-labelledby="why-3">
+              <span class="card-num" aria-hidden="true">03</span>
+              <div class="card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg>
+              </div>
+              <h3 class="card-title" id="why-3">Modern Professional Design</h3>
+              <p class="card-desc">Your website is your first impression. I design clean, contemporary sites that make your business look credible from the very first visit.</p>
+              <div class="card-proof"><div class="proof-dot proof-blue" aria-hidden="true"></div><p class="proof-text"><strong>Bespoke design</strong> — no templates used</p></div>
+            </li>
+
+            <li class="trust-card trust-card--amber reveal" aria-labelledby="why-4">
+              <span class="card-num" aria-hidden="true">04</span>
+              <div class="card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <h3 class="card-title" id="why-4">Support After Launch</h3>
+              <p class="card-desc">Going live isn't the end. Three months of free post-launch support means you're never left on your own after the site goes live.</p>
+              <div class="card-proof"><div class="proof-dot proof-amber" aria-hidden="true"></div><p class="proof-text"><strong>3 months free</strong> support included</p></div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PROCESS
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2 id="process-title" class="section-title">From first call<br>to <em>live website</em></h2>
+          </div>
+          <p class="section-desc">A straightforward four-step process — no surprises, no jargon. You'll know exactly what's happening at every stage.</p>
+        </header>
+
+        <div class="process__track" role="list" aria-label="Project steps">
+          <div class="track-line" aria-hidden="true"><div class="track-fill" id="track-fill"></div></div>
+
+          <div class="proc-step reveal" role="listitem" aria-labelledby="step-1">
+            <div class="proc-node" aria-hidden="true">
+              <div class="node-ring"></div>
+              <div class="node-disc">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <div class="node-badge">01</div>
+            </div>
+            <div class="proc-body">
+              <span class="proc-duration">Day 1</span>
+              <h3 class="proc-title" id="step-1">Share Your Requirements</h3>
+              <p class="proc-desc">Tell me about your business, goals, and what you need from your website.</p>
+              <div class="proc-card">
+                <p class="proc-card-label">What happens</p>
+                <ul class="proc-card-items">
+                  <li>Free discovery call</li><li>Goals &amp; audience review</li>
+                  <li>Written project brief</li><li>Fixed price quote</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="proc-step reveal" role="listitem" aria-labelledby="step-2">
+            <div class="proc-node" aria-hidden="true">
+              <div class="node-ring"></div>
+              <div class="node-disc">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <div class="node-badge">02</div>
+            </div>
+            <div class="proc-body">
+              <span class="proc-duration">Days 2–5</span>
+              <h3 class="proc-title" id="step-2">Design &amp; Development</h3>
+              <p class="proc-desc">I design and build your site — clean code, fast pages, mobile-first.</p>
+              <div class="proc-card">
+                <p class="proc-card-label">What happens</p>
+                <ul class="proc-card-items">
+                  <li>Visual design mockup</li><li>Full HTML/CSS build</li>
+                  <li>Mobile optimisation</li><li>Content integration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="proc-step reveal" role="listitem" aria-labelledby="step-3">
+            <div class="proc-node" aria-hidden="true">
+              <div class="node-ring"></div>
+              <div class="node-disc">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              </div>
+              <div class="node-badge">03</div>
+            </div>
+            <div class="proc-body">
+              <span class="proc-duration">Days 6–7</span>
+              <h3 class="proc-title" id="step-3">Review &amp; Revisions</h3>
+              <p class="proc-desc">You review a live preview and request any changes before we launch.</p>
+              <div class="proc-card">
+                <p class="proc-card-label">What happens</p>
+                <ul class="proc-card-items">
+                  <li>Private staging link</li><li>Up to 3 revision rounds</li>
+                  <li>Cross-browser testing</li><li>Final sign-off</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="proc-step reveal" role="listitem" aria-labelledby="step-4">
+            <div class="proc-node" aria-hidden="true">
+              <div class="node-ring"></div>
+              <div class="node-disc">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 15 8.5 22 9.3 17 14.1 18.4 21 12 17.8 5.6 21 7 14.1 2 9.3 9 8.5Z"/></svg>
+              </div>
+              <div class="node-badge">04</div>
+            </div>
+            <div class="proc-body">
+              <span class="proc-duration">Day 7</span>
+              <h3 class="proc-title" id="step-4">Website Launch</h3>
+              <p class="proc-desc">Your site goes live on your domain, fully tested and ready for customers.</p>
+              <div class="proc-card">
+                <p class="proc-card-label">What happens</p>
+                <ul class="proc-card-items">
+                  <li>Domain &amp; hosting setup</li><li>Speed &amp; SEO check</li>
+                  <li>Handover &amp; training</li><li>3 months free support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         CTA
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="cta-section" id="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-card reveal" id="cta-card">
+          <div class="cta-grid-bg" aria-hidden="true"></div>
+          <div class="cta-glow"    aria-hidden="true"></div>
+          <div class="cta-watermark" aria-hidden="true">WebMitra.</div>
+
+          <div class="cta-inner">
+            <div class="cta-copy">
+              <p class="cta-eyebrow">
+                <span class="cta-dot" aria-hidden="true"></span>
+                Accepting new projects
+              </p>
+              <h2 id="cta-heading" class="cta-headline">
+                Ready to Build Your<br><em>Business Website?</em>
+              </h2>
+              <p class="cta-sub">
+                Stop losing customers to competitors with better websites. Get a fast, professional,
+                mobile-friendly website built specifically for your business — delivered in as little
+                as 7 days, at a price that makes sense for a local business.
+              </p>
+              <ul class="cta-chips" aria-label="Included benefits">
+                <li class="cta-chip"><span class="chip-check" aria-hidden="true"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Mobile-friendly design</li>
+                <li class="cta-chip"><span class="chip-check" aria-hidden="true"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Live in 7 days</li>
+                <li class="cta-chip"><span class="chip-check" aria-hidden="true"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>SEO-ready from day one</li>
+                <li class="cta-chip"><span class="chip-check" aria-hidden="true"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>3 months free support</li>
+                <li class="cta-chip"><span class="chip-check" aria-hidden="true"><svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>Fixed price, no surprises</li>
+              </ul>
+              <div class="cta-actions">
+                <a href="#contact" class="btn btn--accent btn--lg">
+                  Request Website
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#portfolio" class="btn btn--ghost-dark">See examples first</a>
+              </div>
+            </div>
+
+            <aside class="cta-aside" aria-label="Key stats">
+              <div class="aside-stat">
+                <div class="aside-val">7<span>d</span></div>
+                <div class="aside-label">Average time from brief<br>to live website</div>
+              </div>
+              <div class="aside-stat">
+                <div class="aside-val">30<span>+</span></div>
+                <div class="aside-label">Local businesses with<br>a site built by us</div>
+              </div>
+              <div class="aside-guarantee" role="note">
+                <div class="guarantee-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                </div>
+                <div>
+                  <p class="guarantee-title">Satisfaction Guarantee</p>
+                  <p class="guarantee-text">If you're not happy with the design, I'll revise it until you are — at no extra cost.</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════════════════════════════ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+
+        <header class="section-header">
+          <div>
+            <p class="eyebrow">Get in touch</p>
+            <h2 id="contact-title" class="section-title">Let's build something<br><em>together</em></h2>
+          </div>
+          <p class="section-desc">Have a project in mind? Fill in the form or reach out on WhatsApp — I'll get back to you within a few hours.</p>
+        </header>
+
+        <div class="contact__body">
+
+          <div class="contact__info reveal-left" aria-label="Contact information">
+            <div class="info-headline">
+              <h3>Start a conversation.<br><em>No pressure.</em></h3>
+              <p>Every project starts with a free chat. Tell me what you need and I'll tell you what I can do.</p>
+            </div>
+
+            <div class="info-items">
+              <a href="mailto:liquidgains1204@gmail.com" class="info-item" aria-label="Email us">
+                <div class="info-item-icon info-icon-red" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C84B2F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div class="info-item-text">
+                  <p class="info-label">Email us</p>
+                  <p class="info-value">liquidgains1204@gmail.com</p>
+                </div>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+
+              <div class="info-item" aria-label="Location">
+                <div class="info-item-icon info-icon-gold" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A96E" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="info-item-text">
+                  <p class="info-label">Location</p>
+                  <p class="info-value">Pune, Maharashtra, India</p>
+                </div>
+              </div>
+
+              <div class="info-item" aria-label="Response time">
+                <div class="info-item-icon info-icon-blue" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#818CF8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div class="info-item-text">
+                  <p class="info-label">Response time</p>
+                  <p class="info-value">Within a few hours</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/919011395656?text=Hi%2C%20I%27d%20like%20to%20discuss%20a%20website%20project"
+               class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+              <div class="whatsapp-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              </div>
+              <div class="whatsapp-text">
+                <strong>Chat on WhatsApp</strong>
+                <span>Fastest way to reach us</span>
+              </div>
+              <svg class="whatsapp-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <div class="avail-badge">
+              <div class="avail-dot" aria-hidden="true"></div>
+              <p class="avail-text"><strong>Currently accepting new projects.</strong> Typical start date within 1–2 weeks.</p>
+            </div>
+          </div>
+
+          <div class="contact__form-card reveal-right" id="contact-form-card">
+            <h3 class="form-title">Send a message</h3>
+            <p class="form-sub">I'll reply within a few hours with a no-obligation quote.</p>
+
+            <form class="form" id="contact-form" novalidate aria-label="Contact form">
+
+              <div class="field">
+                <label for="name" class="field-label">Full Name <sup aria-label="required">*</sup></label>
+                <input type="text" id="name" name="name" class="field-input" placeholder="Jane Smith"
+                  autocomplete="name" required aria-required="true" aria-describedby="name-error" />
+                <span id="name-error" class="field-error" role="alert" aria-live="polite">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                  Please enter your name.
+                </span>
+              </div>
+
+              <div class="field">
+                <label for="phone" class="field-label">Phone Number <sup aria-label="required">*</sup></label>
+                <div class="phone-wrap" id="phone-wrap">
+                  <div class="phone-prefix">🇮🇳 +91</div>
+                  <input type="tel" id="phone" name="phone" class="phone-input" placeholder="98765 43210"
+                    autocomplete="tel" required aria-required="true" aria-describedby="phone-error" />
+                </div>
+                <span id="phone-error" class="field-error" role="alert" aria-live="polite">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                  Please enter a valid phone number.
+                </span>
+              </div>
+
+              <div class="field">
+                <label for="service" class="field-label">Website Type <sup aria-label="required">*</sup></label>
+                <div class="select-wrap">
+                  <select id="service" name="service" class="field-input" required aria-required="true">
+                    <option value="">Select a service…</option>
+                    <option value="business">Business Website</option>
+                    <option value="catalog">Online Catalog</option>
+                    <option value="leads">Lead Generation Website</option>
+                    <option value="other">Other / Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="message" class="field-label">Tell me about your project</label>
+                <textarea id="message" name="message" class="field-textarea" rows="4"
+                  placeholder="What does your business do? What are your main goals for the website?"></textarea>
+              </div>
+
+              <button type="submit" class="form-submit" id="form-submit">
+                <span class="submit-text">Send Message</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+
+              <p class="form-disclaimer">By submitting, you agree to our <a href="#">Privacy Policy</a>. No spam, ever.</p>
+            </form>
+
+            <div class="form-success" id="form-success" role="status" aria-live="polite" aria-atomic="true">
+              <div class="success-icon" aria-hidden="true">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h3 class="success-title">Message sent!</h3>
+              <p class="success-sub">Thank you for reaching out. I'll get back to you within a few hours with a no-obligation quote.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__glow" aria-hidden="true"></div>
+
+    <div class="footer-strip">
+      <div class="container footer-strip__inner">
+        <div class="strip-copy">
+          <p class="strip-eyebrow">Still thinking about it?</p>
+          <h2 class="strip-title">Your new website is <em>one conversation away</em></h2>
+        </div>
+        <div class="strip-actions">
+          <a href="#contact" class="btn btn--accent">
+            Request Website
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://wa.me/919011395656" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container footer-main__inner">
+
+        <div class="footer-brand">
+          <a href="#" class="brand-logo" aria-label="WebMitra — Home">WebMitra<span>.</span></a>
+          <p class="brand-tagline">Your Digital Partner</p>
+          <ul class="brand-socials" aria-label="Social media">
+            <li><a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg></a></li>
+            <li><a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li>
+            <li><a href="#" class="social-link" aria-label="Dribbble" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg></a></li>
+            <li><a href="#" class="social-link" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <nav class="footer-col" aria-label="Quick links">
+          <h3 class="footer-col-title">Quick Links</h3>
+          <ul class="footer-nav-list">
+            <li><a href="#services"  class="footer-nav-link">Services</a></li>
+            <li><a href="#portfolio" class="footer-nav-link">Portfolio</a></li>
+            <li><a href="#why-us"    class="footer-nav-link">Why Choose Us</a></li>
+            <li><a href="#process"   class="footer-nav-link">Our Process</a></li>
+            <li><a href="#contact"   class="footer-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Services">
+          <h3 class="footer-col-title">Services</h3>
+          <ul class="footer-nav-list">
+            <li><a href="#services" class="footer-nav-link">Business Websites</a></li>
+            <li><a href="#services" class="footer-nav-link">Online Catalogs</a></li>
+            <li><a href="#services" class="footer-nav-link">Lead Generation</a></li>
+            <li><a href="#services" class="footer-nav-link">Website Redesign</a></li>
+            <li><a href="#services" class="footer-nav-link">Mobile Optimisation</a></li>
+            <li><a href="#services" class="footer-nav-link">SEO Setup</a></li>
+          </ul>
+        </nav>
+
+        <address class="footer-col" style="font-style:normal;">
+          <h3 class="footer-col-title">Contact</h3>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon fci-red" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C84B2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+              <a href="mailto:liquidgains1204@gmail.com" class="footer-contact-value">liquidgains1204@gmail.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon fci-green" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <a href="tel:+919011395656" class="footer-contact-value">+91 90113 95656</a>
+            </li>
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon fci-gold" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C9A96E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <span class="footer-contact-value">Pune, Maharashtra, India</span>
+            </li>
+            <li class="footer-contact-item">
+              <div class="footer-contact-icon fci-blue" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <span class="footer-contact-value">Mon–Sat, 9am–7pm IST</span>
+            </li>
+          </ul>
+        </address>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p class="footer-copyright">&copy; <span id="footer-year"></span> WebMitra. All rights reserved.</p>
+        <ul class="footer-legal" role="list">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+        <p class="footer-made">Made with <span>♥</span> for local businesses</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
